@@ -20,6 +20,13 @@ class WeatherStationHeatIndex {
 		echo "<br>";
 		$weatherData->setMeasurements(78, 90, 29.2);
 		echo "<br>";
+
+		echo "<br>after remove three observers<br><br>";
+		$weatherData->removeObserver($currentDisplay);
+		$weatherData->removeObserver($statisticsDisplay);
+		$weatherData->removeObserver($forecastDisplay);
+
+		$weatherData->setMeasurements(90, 100, 30.2);
 	}
 }
 

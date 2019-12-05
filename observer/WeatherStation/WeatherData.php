@@ -26,9 +26,8 @@ class WeatherData implements Subject {
 	}
 
 	public function notifyObservers() {
-		for ($i = 0; $i < count($this->observers); $i++) {
-			$observer = $this->observers[$i];
-			$observer->update($this->temperature, $this->humidity, $this->pressure);
+		foreach ($this->observers as $tmpObserver) {
+			$tmpObserver->update($this->temperature, $this->humidity, $this->pressure);
 		}
 	}
 	

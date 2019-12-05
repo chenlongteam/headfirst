@@ -18,6 +18,11 @@ class WeatherStation {
 		$weatherData->setMeasurements(82, 70, 29.2);
 		echo "<br>";
 		$weatherData->setMeasurements(78, 90, 29.2);
+
+		echo "<br>after remove statisticsDisplay<br><br>";
+		$weatherData->removeObserver($statisticsDisplay);
+
+		$weatherData->setMeasurements(90, 100, 30.2);
 	}
 }
 
