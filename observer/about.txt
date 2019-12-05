@@ -1,0 +1,8 @@
+
+WeatherStation 文件夹是php版本的
+
+本地运行
+http://your-locahost-uri/headfirstsource/observer/WeatherStation/WeatherStation.php
+http://your-locahost-uri/headfirstsource/observer/WeatherStation/WeatherStationHeatIndex.php
+
+
