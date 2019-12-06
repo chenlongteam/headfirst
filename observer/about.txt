@@ -1,5 +1,8 @@
 
+Swing和WeatherStationObservable为介绍的java原生类使用，不翻译。
+
 WeatherStation 文件夹是php版本的
+
 
 本地运行
 http://your-locahost-uri/headfirstsource/observer/WeatherStation/WeatherStation.php
