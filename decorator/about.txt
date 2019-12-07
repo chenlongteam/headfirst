@@ -1,0 +1,6 @@
+
+io文件夹介绍的java原生类（文件的输入流）使用，不翻译。
+
+本地运行
+http://your-locahost-uri/headfirstsource/decorator/starbuzz/StarbuzzCoffee.php
+
