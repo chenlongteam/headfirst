@@ -1,5 +1,6 @@
 <?php
 
+//配料-奶泡
 require_once './CondimentDecorator.php';
 class Whip extends CondimentDecorator
 {

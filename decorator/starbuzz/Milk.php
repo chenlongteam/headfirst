@@ -1,6 +1,6 @@
 <?php
 
-//牛奶
+//配料-牛奶
 require_once './CondimentDecorator.php';
 class Milk extends CondimentDecorator
 {

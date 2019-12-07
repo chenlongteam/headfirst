@@ -1,6 +1,6 @@
 <?php
 
-//深烘焙的咖啡
+//咖啡-深焙咖啡
 require_once './Beverage.php';
 class DarkRoast extends Beverage {
 

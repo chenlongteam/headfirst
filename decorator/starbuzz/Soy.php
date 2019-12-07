@@ -1,6 +1,6 @@
 <?php
 
-//豆浆
+//配料-豆浆
 require_once './CondimentDecorator.php';
 class Soy extends CondimentDecorator
 {

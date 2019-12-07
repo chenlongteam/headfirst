@@ -1,7 +1,6 @@
 <?php
 
-//蒸馏咖啡
-
+//咖啡-浓缩咖啡
 require_once './Beverage.php';
 class Espresso extends Beverage
 {

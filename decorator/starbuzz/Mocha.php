@@ -1,6 +1,6 @@
 <?php
 
-//摩卡咖啡
+//配料-摩卡
 require_once './CondimentDecorator.php';
 class Mocha extends CondimentDecorator
 {

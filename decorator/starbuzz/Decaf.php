@@ -1,6 +1,6 @@
 <?php
 
-//低因咖啡 (脱咖啡因咖啡)
+//咖啡-低因咖啡 (脱咖啡因咖啡)
 require_once './Beverage.php';
 class Decaf extends Beverage {
 
