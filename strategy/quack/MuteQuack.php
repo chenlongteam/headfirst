@@ -4,6 +4,6 @@
 require_once 'QuackBehavior.php';
 class MuteQuack implements QuackBehavior {
 	public function quack2() {
-		echo "<< Silence >><br>";
+		echo "<< Silence >><br>\n";
 	}
 }

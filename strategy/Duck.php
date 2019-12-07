@@ -26,6 +26,6 @@ abstract class Duck {
 	}
  
 	public function swim() {
-		echo "All ducks float, even decoys!<br>";
+		echo "All ducks float, even decoys!<br>\n";
 	}
 }

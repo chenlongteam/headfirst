@@ -15,13 +15,13 @@ class WeatherStationHeatIndex {
 		$heatIndexDisplay = new HeatIndexDisplay($weatherData);
 
 		$weatherData->setMeasurements(80, 65, 30.4);
-		echo "<br>";
+		echo "<br>\n";
 		$weatherData->setMeasurements(82, 70, 29.2);
-		echo "<br>";
+		echo "<br>\n";
 		$weatherData->setMeasurements(78, 90, 29.2);
-		echo "<br>";
+		echo "<br>\n";
 
-		echo "<br>after remove three observers<br><br>";
+		echo "<br>\nafter remove three observers<br>\n<br>\n";
 		$weatherData->removeObserver($currentDisplay);
 		$weatherData->removeObserver($statisticsDisplay);
 		$weatherData->removeObserver($forecastDisplay);

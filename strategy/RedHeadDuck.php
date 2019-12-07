@@ -13,6 +13,6 @@ class RedHeadDuck extends Duck {
 	}
  
 	public function display() {
-		echo "I'm a real Red Headed duck<br>";
+		echo "I'm a real Red Headed duck<br>\n";
 	}
 }

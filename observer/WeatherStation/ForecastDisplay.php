@@ -20,11 +20,11 @@ class ForecastDisplay implements Observer, DisplayElement {
 	public function display() {
 		echo "Forecast: ";
 		if ($this->currentPressure > $this->lastPressure) {
-			echo "Improving weather on the way!<br>";
+			echo "Improving weather on the way!<br>\n";
 		} else if ($this->currentPressure == $this->lastPressure) {
-			echo "More of the same<br>";
+			echo "More of the same<br>\n";
 		} else if ($this->currentPressure < $this->lastPressure) {
-			echo "Watch out for cooler, rainy weather<br>";
+			echo "Watch out for cooler, rainy weather<br>\n";
 		}
 	}
 }

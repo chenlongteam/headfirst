@@ -10,6 +10,6 @@ class DecoyDuck extends Duck {
 		$this->setQuackBehavior(new MuteQuack());
 	}
 	public function display() {
-		echo "I'm a duck Decoy<br>";
+		echo "I'm a duck Decoy<br>\n";
 	}
 }

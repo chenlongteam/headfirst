@@ -27,6 +27,6 @@ class HeatIndexDisplay implements Observer, DisplayElement {
 	}
 
 	public function display() {
-		echo "Heat index: is " . $this->heatIndex."<br>";
+		echo "Heat index: is " . $this->heatIndex."<br>\n";
 	}
 }

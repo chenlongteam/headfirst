@@ -14,12 +14,12 @@ class WeatherStation {
 		$forecastDisplay = new ForecastDisplay($weatherData);
 
 		$weatherData->setMeasurements(80, 65, 30.4);
-		echo "<br>";
+		echo "<br>\n";
 		$weatherData->setMeasurements(82, 70, 29.2);
-		echo "<br>";
+		echo "<br>\n";
 		$weatherData->setMeasurements(78, 90, 29.2);
 
-		echo "<br>after remove statisticsDisplay<br><br>";
+		echo "<br>\nafter remove statisticsDisplay<br>\n<br>\n";
 		$weatherData->removeObserver($statisticsDisplay);
 
 		$weatherData->setMeasurements(90, 100, 30.2);

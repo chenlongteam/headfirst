@@ -4,6 +4,6 @@
 require_once 'QuackBehavior.php';
 class Squeak implements QuackBehavior {
 	public function quack2() {
-		echo "Squeak<br>";
+		echo "Squeak<br>\n";
 	}
 }

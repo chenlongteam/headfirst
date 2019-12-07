@@ -18,6 +18,6 @@ class CurrentConditionsDisplay implements Observer, DisplayElement {
 	}
 	
 	public function display() {
-		echo "Current conditions: " . $this->temperature . "F degrees and " . $this->humidity . "% humidity<br/>";
+		echo "Current conditions: " . $this->temperature . "F degrees and " . $this->humidity . "% humidity<br>\n";
 	}
 }

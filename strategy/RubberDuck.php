@@ -14,6 +14,6 @@ class RubberDuck extends Duck {
 	}
  
 	public function display() {
-		echo "I'm a rubber duckie<br>";
+		echo "I'm a rubber duckie<br>\n";
 	}
 }
