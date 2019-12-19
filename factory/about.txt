@@ -2,7 +2,7 @@
 运行：
 http://your-locahost-uri/headfirstsource/factory/pizzaaf/PizzaTestDrive.php
 
-目前只翻译了第3个文件夹
+目前只翻译了 pizzaaf 这个文件夹
 
 
 pizzaaf 抽象工厂模式
