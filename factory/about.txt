@@ -1,0 +1,43 @@
+
+pizzaaf 抽象工厂模式
+pizzafm 工厂方法模式
+pizzas 简单工厂
+
+相关名词：
+
+披萨种类：
+cheese 奶酪
+veggie 蔬菜
+clam 蛤蜊
+Pepperoni 腊香肠 （帕帕罗尼肠）
+
+
+black Olives 黑油橄榄
+
+toppings 佐料、配料
+
+dough 面团
+    crust 面皮
+
+sauce 酱
+    Marinara 番茄酱
+
+Onion 洋葱
+Eggplant 茄子
+Pepper 胡椒
+Garlic 大蒜
+Spinach 菠菜
+
+parmesan 帕尔马干酪(一种意大利硬奶酪，常磨碎撒在食品上)
+Mozzarella 莫泽雷勒干酪(一种色白味淡的意大利干酪)
+Reggiano 巴马干酪
+
+Diced 将...切成小方块
+
+thin 薄的
+thick 厚的
+
+Chicago 芝加哥
+NY NewYork 纽约
+
+Ingredient 原料
