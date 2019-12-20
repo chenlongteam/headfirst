@@ -9,5 +9,6 @@ interface PizzaIngredientFactory {
 	public function createVeggies();
 	public function createPepperoni();
 	public function createClam();
- 
+
+	//public function createOil();
 }
