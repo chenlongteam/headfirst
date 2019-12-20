@@ -1,13 +1,20 @@
 
 运行：
+
+http://your-locahost-uri/headfirstsource/factory/pizzas/PizzaTestDrive.php
+http://your-locahost-uri/headfirstsource/factory/pizzafm/PizzaTestDrive.php
 http://your-locahost-uri/headfirstsource/factory/pizzaaf/PizzaTestDrive.php
 
-目前只翻译了 pizzaaf 这个文件夹
 
-
-pizzaaf 抽象工厂模式
-pizzafm 工厂方法模式
 pizzas 简单工厂
+pizzafm 工厂方法模式
+pizzaaf 抽象工厂模式
+
+
+1.直营店 披萨类型
+2.加盟店 披萨类型、分店类型
+3.关注产品 质量控制 配料细分
+
 
 相关名词：
 
